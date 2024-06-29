@@ -1,0 +1,15 @@
+---
+all:
+  children:
+    servers:
+      hosts:
+        macmini22222222:
+        raspberrypiiiiiiiiii:
+      vars:
+        description: Linux servers
+    desktops:
+      hosts:
+        dmaf5555555:
+        mac-pro-1-11111111:
+      vars:
+        description: Desktops tests

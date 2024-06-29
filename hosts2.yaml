@@ -13,3 +13,9 @@ all:
         mac-pro-1-11111111:
       vars:
         description: Desktops tests
+    switches:
+      hosts:
+        cisco-sw:
+        cisco-f5:
+      vars:
+        description: Switches DC NW

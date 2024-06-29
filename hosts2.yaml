@@ -19,3 +19,9 @@ all:
         cisco-f5:
       vars:
         description: Switches DC NW
+    switches:
+      hosts:
+        cisco1:
+        cisco10:
+      vars:
+        description: Switches DC FL
